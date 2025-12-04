@@ -1,0 +1,82 @@
+:root {
+    --deep-brown: #4B2E18;
+    --light-brown: #C9A27F;
+    --cream: #F7EFE7;
+    --white: #FFFFFF;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: 'Lato', sans-serif;
+    color: var(--deep-brown);
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: var(--deep-brown);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--light-brown) !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--white) !important;
+}
+
+footer {
+    background-color: var(--deep-brown);
+}
+
+/* Utilities */
+.text-brown {
+    color: var(--deep-brown);
+}
+
+.bg-light-brown {
+    background-color: var(--light-brown);
+}
+
+/* Gallery Zoom Effect */
+.gallery-img-container {
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.gallery-img {
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: auto;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+
+/* Menu Cards */
+.menu-card {
+    border: 1px solid var(--light-brown);
+    background-color: var(--white);
+    transition: box-shadow 0.3s;
+}
+
+.menu-card:hover {
+    box-shadow: 0 4px 15px rgba(75, 46, 24, 0.2);
+}
+
+.price-tag {
+    font-weight: bold;
+    color: var(--deep-brown);
+    font-size: 1.2rem;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "nazwa": "Espresso",
+    "opis": "Mocna, aromatyczna, idealna na szybki start dnia. Esencja smaku.",
+    "cena": "7 zł"
+  },
+  {
+    "nazwa": "Cappuccino",
+    "opis": "Klasyczna włoska kawa z idealnie spienionym mlekiem i szczyptą kakao.",
+    "cena": "12 zł"
+  },
+  {
+    "nazwa": "Latte Macchiato",
+    "opis": "Delikatna kawa z dużą ilością mleka, podawana w wysokiej szklance.",
+    "cena": "13 zł"
+  },
+  {
+    "nazwa": "Flat White",
+    "opis": "Podwójne espresso zalane jedwabistym, lekko spienionym mlekiem.",
+    "cena": "14 zł"
+  },
+  {
+    "nazwa": "Tiramisu",
+    "opis": "Tradycyjny włoski deser na bazie biszkoptów, mascarpone i kawy.",
+    "cena": "14 zł"
+  },
+  {
+    "nazwa": "Sernik Karmelowy",
+    "opis": "Aksamitny sernik polany domowym słonym karmelem.",
+    "cena": "15 zł"
+  }
+]
